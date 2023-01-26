@@ -46,5 +46,5 @@ git checkout -b primer/issues/1021/react-select-panel
 
 Не забудьте зробити `Merge` після підтвердження вашого `pull request`. 
 
-![img of compare & pull request button](attachments\compare_pull_request.png)
-![img of pull request button in pull request page](attachments\pull_request_by_hand.png)
+![img of compare & pull request button](attachments/compare_pull_request.png)
+![img of pull request button in pull request page](attachments/pull_request_by_hand.png)
