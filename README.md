@@ -32,5 +32,7 @@
 10. Вірш так само появиться на мастері, але просто через процедуру рев’ю, а не напряму в мастер без code review :)
 11. Вітаємо, ви перейшли на новий рівень :)
 
+Не забудьте зробити `Merge` після підтвердження вашого `pull request`. 
+
 ![img of compare & pull request button](attachments\compare_pull_request.png)
 ![img of pull request button in pull request page](attachments\pull_request_by_hand.png)
