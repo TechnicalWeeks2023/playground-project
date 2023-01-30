@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	line-height: 1.5;
+	text-align: justify;
+	background-color: #303841;
+}
+
+.container {
+	width: 1084px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.main_content {
+	margin-top: 100px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer {
+	margin-top: 80px;
+}
+
+.footer_content {
+	padding: 10px 0 10px 0;
+	padding-left: 20px;
+}
