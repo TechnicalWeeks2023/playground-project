@@ -53,6 +53,8 @@ const Container = styled.article<IContainerProps>`
     color: ${({ fontColor }) => (fontColor ? fontColor : 'black')};
     box-shadow: 5px 5px 20px ${({ shadowColor }) => (shadowColor ? shadowColor : 'red')};
 
+    border-radius: ${({ isOpen }) => (isOpen ? '40px' : '0')};
+
     transition: all 0.5s;
 
     cursor: pointer;
