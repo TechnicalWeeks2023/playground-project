@@ -1,8 +1,0 @@
-This file is going to be uploaded from branch volik-fedir, that is not
-present on the repository, via command git push -u origin volik-fedir.
-After that, a pull request will be created, hopefully, quickly reviewed,
-and then the changes will be merged. That should cause a newly created on
-the github repo branch "volik-fedir" to be deleted. If it is so, the
-repository is configured successfully.
-
-I know I promised a piece of poetry. I am a terrible liar.

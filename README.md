@@ -1,50 +1,46 @@
-## Завдання
-Склонувати собі цей репозиторій, добавити в нього вірш на власний вибір та створити pull request, щоб залити свій шматок змін в мастер (також може бути будь-яка інша гілка).
+# Getting Started with Create React App
 
-## Пояснення GitHub Pull Requests
-Для тих хто не зрозумів про що йдеться, бо ще не мав досвіду:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Нетехнічний вступ
-Якщо не говорити про програмування, а впринципі. В житті завжди є перевірка чиєїсь роботи іншими людьми, або іншими словами - рев‘ю.
-Наприклад: завжди якусь статтю в журналістиці перед тим як опублікувати десь її віддають на рев‘ю редакторам.
+## Available Scripts
 
-### Програмування
-Так само в програмуванні є рев'ю. Воно називається код рев'ю - code review.
-Це процедура коли інші девелопери з команди можуть прокоментувати, запропонувати щось.
+In the project directory, you can run:
 
-Для цього GitHub має певний функціонал - Pull Requests.
+### `npm start`
 
-Щоб залити вірш через Pull Request треба додати свій вірш локально на окрему гілку, пушнути її, і тоді створити на її базі Pull Request.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Як це зробити на практиці 
+### `npm test`
 
-1. `git clone https://github.com/TechnicalWeeks2023/playground-project.git` 
-2. `git checkout -b branch_name`, де "branch_name" назва вашої нової гілки
-   1. Завжди, намагайтесь придумати змістовні назви власним гілкам, комітам, змінним, і т.п. Це допомагає краще комунікувати власні дії в команді та позитивно демонструє ваш рівень.
-3. Добавляєте файл з вашим віршем
-4. `git add .`
-5. `git commit -m "назва коміта"` commit варто називати змістовно, напр. ім'я вірша("commit" - це повідомлення, тому може складатися з декількох слів з <kbd>Space</kbd> між ними)
-Наприклад:
-```
-git commit -m "Deleted button in the main menu"
-```
-6. `git push origin -u branch_name`, в нашому випадку - назва вашої гілки, яку ви створити при checkout -b(назва гілки це одне слово-назва, для читабельності якого можуть використовувати `_`, `-`, `/` символи)
-Наприклад:
-```
-git checkout -b f#84_fix_registration_button_alignment
-```
-або
-```
-git checkout -b primer/issues/1021/react-select-panel
-```
-7. Тоді кнопочками можна створити Pull Request (див. скріншот 1 та 2)
-8. Киньте лінк на pull request в телеграм канал, щоб нагадати людям його перевірити)
-9.  Щоб залити зміни в мастер - нажати кнопку - Merge в цьому Pull Request-і
-10. Вірш так само появиться на мастері, але просто через процедуру рев’ю, а не напряму в мастер без code review :)
-11. Вітаємо, ви перейшли на новий рівень :)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Не забудьте зробити `Merge` після підтвердження вашого `pull request`. 
+### `npm run build`
 
-![img of compare & pull request button](attachments/compare_pull_request.png)
-![img of pull request button in pull request page](attachments/pull_request_by_hand.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
