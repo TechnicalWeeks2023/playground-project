@@ -8,6 +8,7 @@ interface IProps {
     rotate?: number; // rotate note in degrees
     fontColor?: string; // color of the font in whole note
     shadowColor?: string; // color of the shadow
+    className?: any; //
     author: string; // your name
     university: string; // your university
     title: string; // poem title
