@@ -1,0 +1,11 @@
+#title {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2.5rem;
+    font-weight: 900;
+}
