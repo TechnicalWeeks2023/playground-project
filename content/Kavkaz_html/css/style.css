@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    top: 0;
+    left: 0;
+}
+
+.Poem {
+    width: 700px;
+    height: 2100px;
+    background-color: rgb(223, 225, 236);
+    border: 3px solid #9E83D4;
+}
+
+
+.Title {
+    font-size: 22pt;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 20pt;
+}
